@@ -1,0 +1,76 @@
+data = [
+  {
+	"name": "Online Multiplayer Game",
+	"date": "27/05/2022",
+	"libraries": ["OpenCV", "Sockets", "Multiprocesing", "Threads"],
+	"languages": ["python"],
+	"ytb": "https://www.youtube.com/watch?v=1pnPoetKL_0",
+	"git": "https://github.com/mattpozzobon/OnlineMultiplayerGame",
+	
+	"main_image": "img/main.png",
+    "sections": [
+      {	
+		"title": "Overview",
+		"body": "This game was created as a final year project for my degree and it focuses on researching, designing, and developing an Online Multiplayer Battle Game and incorporating Hand Gesture Recognition based on Computer Vision to control users’ actions. To accomplish this, research on how to best design and implement a working Client and Server model, Computer Vision, and Usability were conducted. Moreover, this project aimed to employ a new use of traditional hardware such as a camera for a more immersive experience. Given the complexity of the task, the product created has many areas which could be improved further given more time; for instance, the protocols of communication between Client and Server are primitive and function at an elementary level — Moreover, the implementation of many new features would be extremely beneficial. Some examples would be creating a website, implementing more client sound effects and a better User Interface.",
+      },
+      {	
+		"title": "",
+        "body": "",
+      },
+	  {	
+		"title": "",
+        "body": "",
+		
+      },
+	  
+	 ],
+	"gallery": [
+		{"img":"img/welcome.png"},
+		{"img":"img/createaccount.png"},
+		{"img":"img/options.png"},
+		{"img":"img/login.png"},
+		{"img":"img/lobby.png"},
+		{"img":"img/gameroom.png"},
+		{"img":"img/charselection.png"},
+		{"img":"img/elementselection.png"},
+		{"img":"img/ingame0.png"},
+		{"img":"img/ingame4.png"},
+		{"img":"img/ingame2.png"},
+		{"img":"img/ingame3.png"},
+		{"img":"img/code.png"},
+		{"img":"img/trello.png"},
+		
+	]}, 
+	
+	{
+	"name": "Portfolio Website",
+	"date": "27/05/2022",
+	"libraries": ["html", "css", "javascript"],
+	"languages": ["html5"],
+	"ytb": "",
+	"git": "sasas",
+	
+	"main_image": "img/aboutmemain.png",
+    "sections": [
+      {
+		"body": "The main idea behind this website was to create an accessible way to display my past and future projects. To achieve this, I've coded the entire project page in javascript, which will read an external file such as JSON and dynamically create sections such as a the library, buttons for external links and bodies of text.",
+		"title": "Overview",
+      },
+      {
+        "body": "The outcome of doing this way is that it becomes extremely easy and fast to add new projects, I just need to add a new dictionary to my current Json file and it is done.",
+		"title": "  ",
+      },
+	  {
+        "body": "In the future as the additions of projects tend to increase, I'm planing to create a filter where the languages of the projects are chosen and only projects with that language will be displayed",
+		"title": "Improvements:",
+      },
+	 ],
+	"gallery": [
+		{"img":"img/json.png"},
+		
+		
+	]}, 
+  
+  
+  
+  ,]

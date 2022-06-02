@@ -1,0 +1,225 @@
+/* ############################################################################################## BUTTONS1  */ 
+
+<a href="http://chriscoyier.net" class="alink" target="_blank">
+
+a {
+  text.color: white;
+  text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.box2word {
+  font-size: var(--fs-h1);
+}
+
+.wrapper {
+	justify-content: center;
+  align-items: center;
+	
+	position: absolute;
+	bottom: 3%;
+	left: 3%;
+	width: 94%;
+	text-align: center;
+	
+	border-radius: 20px 20px 20px 20px;
+	
+	display: inline-flex;
+  display: inline-flex;
+  flex-grow: 1;
+  
+}
+
+.wrapper .icon {
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
+  
+  border-radius: 50%;
+  padding: 15px;
+  margin: 1%;
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover a,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #F7633E;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #0A66C2;
+  color: #ffffff;
+}
+
+.wrapper .email:hover,
+.wrapper .email:hover .tooltip,
+.wrapper .email:hover .tooltip::before {
+  background: rgb(0, 153, 51);
+  color: #ffffff;
+}
+
+ 
+
+
+ /* ############################################################################################## BUTTONS2  */ 
+
+.teste {
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.icon-list {
+		position: relative;
+    margin: 10px;
+}
+
+.icon-item {
+  list-style: none;
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+
+.icon-link { 
+  display: inline-flex;
+  font-size: 3rem;  
+  text-decoration: none;  
+  color: var(--color-icon);
+  width: 4rem;
+  height: 4rem;   
+  transition: .5s linear;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+
+}
+
+.icon-link:hover {
+  color: #fff;
+}
+
+.icon-link i {
+  margin: auto;    
+}
+
+.icon-link::before {  
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 4rem;
+  height: 4rem;
+  background: #000;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+}
+ 
+
+.icon-link:hover::before {  
+  transform: scale(1);
+}
+
+.icon-item:nth-child(1) a:hover:before { 
+  background: var(--social-icon1); 
+}
+
+.icon-item:nth-child(2) a:hover:before { 
+  background: var(--social-icon2); 
+}
+
+.icon-item:nth-child(3) a:hover:before { 
+  background: var(--social-icon3); 
+}
+
+.icon-item:nth-child(4) a:hover:before { 
+  background: var(--social-icon4); 
+}
+
+.icon-item:nth-child(5) a:hover:before { 
+  background: var(--social-icon5); 
+}
